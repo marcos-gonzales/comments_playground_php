@@ -43,6 +43,8 @@
     </div>
     @endguest
 
+    
+
   <h3 class="text-warning text-center mb-3">Posts people have wrote</h3>
   <div class="card d-flex flex-column p-3">
     @if($posts->count() && $comments->count())
