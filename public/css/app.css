@@ -1,0 +1,3 @@
+.post-cards:nth-child(odd) {
+  background-color: #eaeaea;
+}
