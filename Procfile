@@ -1,1 +1,1 @@
-web: vendor/bin/comments-playground public/
+web: vendor/bin/heroku-php-nginx public/
