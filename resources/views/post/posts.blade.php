@@ -4,7 +4,6 @@
 <div style="max-width: 600px; margin: auto;">
   @auth
   <h1 class="text-center text-warning">Write a post.</h1>
-
     <form action="/posts" method="POST" class="d-flex flex-column mb-5" enctype="multipart/form-data">
       @csrf
       <label for="title" class="form-label" style="font-size: 120%;">Title</label>
