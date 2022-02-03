@@ -47,7 +47,7 @@
 
   <h3 class="text-warning text-center mb-3">Posts people have wrote</h3>
   <div class="card d-flex flex-column p-3">
-    @if($posts->count() && $comments->count())
+    @if($posts->count())
       @foreach ($posts as $post)
       <div class="card p-3 post-cards">
         <p class="text-primary">{{ $post->title }}</p>

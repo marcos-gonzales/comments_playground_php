@@ -28,7 +28,7 @@ class Auth extends Controller
         'password' => Hash::make($req->password)
       ]);
 
-      $data = ['message' => 'Thank you for singing up, '.$req->name];
+      $data = ['message' => 'Thank you for singing up, '. $req->name];
       Mail::to($req->email)->send(new TestEmail($data));
 
       if (Mail::failures()) {
